@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 """
 Pascal triangle
-""" 
-def pascal_triangle(n): 
+"""
+
+
+def pascal_triangle(n):
     """
     Pascal triangle method
 
-    Args: 
+    Args:
         n(int): integer determine te size of triange
 
     Returns:
@@ -18,7 +20,7 @@ def pascal_triangle(n):
 
     if n <= 0:
         return K
-    
+
     K = [[1]]
     for i in range(1, n):
         temp = [1]
