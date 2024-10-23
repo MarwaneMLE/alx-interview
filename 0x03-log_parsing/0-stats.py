@@ -39,7 +39,8 @@ try:
             # Every 10 lines, print metrics
             if i == 10:
                 print('File size: {:d}'.format(sum_file_size))
-                sorted_keys = sorted(status_code.keys())  # Sort the status codes
+                # Sort the status codes
+                sorted_keys = sorted(status_code.keys())
                 for key in sorted_keys:
                     value = status_code[key]
                     # Print the count of each status code if it is not zero
