@@ -13,7 +13,7 @@ def validUTF8(data):
     for byte in data:
         mask = 1 << 7
 
-        #If w're not expecting additional bytes,determine the num of leading 1s
+        # If w're not expecting additional byts,determine the num of leading 1s
         if num_bytes == 0:
             while byte & mask:
                 num_bytes += 1
