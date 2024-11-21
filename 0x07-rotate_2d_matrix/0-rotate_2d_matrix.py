@@ -9,7 +9,7 @@ def rotate_2d_matrix(matrix):
     Method that rotate 2D matrix to 90 degrees clockwise
     
     Args:
-        matrix: 2D matrix        
+        matrix: 2D matrix
     """
     matrix.reverse()
     length = len(matrix)
